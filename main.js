@@ -49,6 +49,6 @@ function httpRequest(url, callback){
 //function in charge of output from httpRequest function.
 function jsonResponse(response){
     let jsonObj = JSON.parse(response); //sets jsonObj to be JSON.
-    result.textContent = Math.floor(jsonObj.main.temp - 273); //replaces text with the text given from API.
+    result.textContent = Math.floor(jsonObj.main.temp - 273) + '°C'; //replaces text with the text given from API.
 }
 
