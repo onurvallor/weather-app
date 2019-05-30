@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #454d66;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px; 
+}
+
+#cityInput, input, button{
+    border-style: none;
+    outline-style: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+button{
+    background-color: #58b368;
+    color: white;
+}
+
+#result{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+}
